@@ -59,12 +59,22 @@
   font-size: 16px;
   border: none;
 }
+.dropdownBtn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
 
 .dropdownMenu {
   position: relative;
   display: inline-block;
 }
-	
+.dropdownMenu1 {
+  position: relative;
+  display: inline-block;
+}	
 .dropdownSelections {
   display: none;
   position: absolute;
@@ -73,8 +83,22 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
+.dropdownSelections1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 .dropdownSelections a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+	}
+	
+.dropdownSelections1 a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -86,6 +110,12 @@
 .dropdownMenu:hover .dropdownSelections {display: block;}
 
 .dropdownMenu:hover .dropdownBtn {background-color: #3e8e41;}
+
+.dropdownSelections1 a:hover {background-color: #ddd;}
+	
+.dropdownMenu1:hover .dropdownSelections1 {display: block;}
+
+.dropdownMenu1:hover .dropdownBtn1 {background-color: #3e8e41;}
 </style>
 <nav>
 <div class="dropdownMenu">
@@ -97,17 +127,17 @@
 		<a href="Placeholder">Option4</a>
 	</div>
 </div>
-<!--
-<div class="dropdownMenu2">
-	<p class="dropBtn1"></p>
-	<div class="dropdownSelections">
+
+<div class="dropdownMenu1">
+	< class="dropBtn1"></p>
+	<div class="dropdownSelections1">
 		<a href="Placeholder">Option1</a>
 		<a href="Placeholder">Option2</a>
 		<a href="Placeholder">Option3</a>
 		<a href="Placeholder">Option4</a>
 	</div>
 </div>
--->
+
 </nav>
 </head>
 <body>
@@ -118,6 +148,14 @@
 	</div>
 	<div class="slides">
 		<div class="numbers">2/4</div>
+		<img src="placeholder" style="width:100%"></img>
+	</div>
+	<div class="slides">
+		<div class="numbers">3/4</div>
+		<img src="placeholder" style="width:100%"></img>
+	</div>
+	<div class="slides">
+		<div class="numbers">4/4</div>
 		<img src="placeholder" style="width:100%"></img>
 	</div>
 </div>
