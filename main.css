@@ -53,8 +53,16 @@ body {
 }
 */
 	
+.greenBar {
+display: block;
+background-color: #09b000;
+z-index: -1;
+	width: 100%;
+	padding: 22px;
+	border: none;
+}
 .dropdownBtn {	
-	background-color: #4CAF50;
+	background-color: #09b000;
   	color: white;
  	padding: 14px;
  	font-size: 16px;
@@ -66,7 +74,7 @@ body {
 .dropdownMenu {
 	position: relative;
 	display: inline-block;
-
+	
 }
 
 .dropdownSelections {
