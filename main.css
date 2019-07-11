@@ -63,11 +63,9 @@ body {
 .dropdownMenu {
   position: relative;
   display: inline-block;
+  width: 16.6%;
 }
-.dropdownMenu1 {
-  position: relative;
-  display: inline-block;
-}	
+
 .dropdownSelections {
   display: none;
   position: absolute;
@@ -93,9 +91,7 @@ body {
 .dropdownMenu:hover .dropdownBtn {
 	background-color: #3e8e41;
 	}
-.dropdownSelections1 a:hover {
-	background-color: #ddd;
-	}
+
 	
 	
 .dot {
