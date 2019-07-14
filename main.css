@@ -140,6 +140,6 @@ position: absolute;
 background-color: #717171;
 }
 
-.previous {
+.previous: hover {
 background-color: #717171;	
 }
